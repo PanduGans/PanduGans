@@ -27,14 +27,14 @@ BOT WHATSAPP YANG BISA DIGUNAKAN DI TERMUX
 
 
 
-1
+
 
 
 > cd PanduGans
 > dir
 
 > bash install.sh
-> node index.js
+> panduGans.js
 ```
 
 
