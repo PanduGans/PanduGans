@@ -13,11 +13,11 @@ const tambahan = require("./lib/tambahan.js")
 const donasi = require("./lib/donasi.js");
 const info = require("./lib/info.js");
 /////////////////
-const BotName = 'REUZ BOT☄'; 
-const instagram = 'https://instagram.com/reuz.id'; 
-const telegram = 'https://t.me/reuzzz'; 
+const BotName = 'PANDU BOTZ'; 
+const instagram = 'https://instagram.com/pandu_sad_boy'; 
+const telegram = 'https://t.me/xnxx'; 
 const kapanbotaktif = 'KETIKA HANYA DIAKTIFKAN'; 
-const youtube = 'https://www.youtube.com/c/reuz_id';
+const youtube = 'https://www.youtube.com/c/panduBot';
 //const grupch1 = 'belum ada grup'; 
 //const grupch2 = 'belum ada grup' ; 
 const
@@ -121,7 +121,7 @@ conn.sendMessage(id, tambahan.p ,MessageType.text);
 }
 else if (text == 'test')
 {
-  conn.sendMessage(id, tambahan.test, MessageType.text);
+  conn.sendMessage(id, tambahan.AdaYangbisaPansBotBantuKak, MessageType.text);
 }
 else if (text == 'HALO')
 {
