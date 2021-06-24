@@ -1,5 +1,5 @@
 //================================
-// [❗] HAI NAMAKU NAYLA
+// [❗] HAI NAMAKU PANDU
 // [❗] YAH DISINI AKU SEBAGAI PEMULA 
 // [❗] MAU MENCOBA MEMBUAT BOT SENDIRI
 // [❗] YANG PASTINYA PASTI BANYAK YG
@@ -9,7 +9,7 @@
 
 //================================
 // [❗] THX TO JGN DIHAPUS/DIGANTI
-// [❗] NAMA AUTHOR "NAYLA" JGN DI GANTI
+// [❗] NAMA AUTHOR "PANDU" JGN DI GANTI
 // [❗] JANGAN DI PERJUAL BELIKAN
 // [❗] PERATURAN DI LANGGAR? GW BERHENTI UPDATE
 // [❗] JGN UPLOAD ULANG SC GW YAAA
@@ -408,9 +408,9 @@ const nayXix = JSON.parse(fs.readFileSync('./nayla/nayXix.json'))
             DI UBAHH YAAAA OKEYY            
             */const vnayla = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + `FN: NAYLACHAN\n` 
-            + `ORG: AUTHOR;\n`
-            + `TEL;type=CELL;type=VOICE;waid=62812874133914:+62 812-8741-33914\n`
+            + `FN: PANDU GANS\n` 
+            + `ORG: PANDU GANS;\n`
+            + `TEL;type=CELL;type=VOICE;waid=6281545824266:+62 815-4582-4266\n`
             + 'END:VCARD' 
             colors = ['red', 'pink', 'white', 'black', 'blue', 'yellow', 'green']
 			const isMedia = (type === 'imageMessage' || type === 'videoMessage')			 			  
