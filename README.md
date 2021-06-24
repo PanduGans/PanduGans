@@ -1,4 +1,4 @@
-## KNTNBOTWA
+##PANDU BOT WA
 BOT WHATSAPP YANG BISA DIGUNAKAN DI TERMUX
 
 
@@ -16,10 +16,10 @@ BOT WHATSAPP YANG BISA DIGUNAKAN DI TERMUX
 > pkg install ffmpeg
 > pkg install nodejs
 > apt update && apt upgrade
-> git clone https://github.com/benisadewa/kntnbotwa
-> cd kntnbotwa
-> npm i -g cwebp && npm i -g ytdl
-> npm i && npm i got
+> git clone https://github.com/PanduGans/PanduGans
+> cd PanduGans
+
+
 > bash install.sh
 > node index.js
 ```
@@ -54,4 +54,4 @@ ket : ✅ : aktif
 * [`termux-whatsapp-bot`](https://github.com/fdciabdul/termux-whatsapp-bot)
 
 ## DONASI
-* Gopay : 081271699856 Reuz
+* Gopay : 081545824266 PANDU
