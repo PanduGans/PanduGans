@@ -34,7 +34,7 @@ BOT WHATSAPP YANG BISA DIGUNAKAN DI TERMUX
 > dir
 
 > bash install.sh
-> panduGans.js
+> nodegans.js
 ```
 
 
