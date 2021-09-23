@@ -431,7 +431,7 @@ frnzer.on("group-participants-update", async (anu) => {
         let v = frnzer.contacts[num] || { notify: num.replace(/@.+/, "") };
         anu_user = v.vname || v.notify || num.split("@")[0];
         time_wel = moment.tz("Asia/Jakarta").format("HH:mm");
-        teks = `Halo ${anu_user} \n\nNama : \nUmur :\nGender : \nAsal :\n\nSemoga Betah dan jangan lupa isi\nAnd Baca Rules Group\n\nVisit Sosmed Owner:\nYT: https://youtube.com/Fernazer\nGithub: https://github.com/Fernazer`;
+        teks = `Halo ${anu_user} \n\nNama : \nUmur :\nGender : \nAsal :\n\nSemoga Betah dan jangan lupa isi\nAnd Baca Rules Group\n\nVisit Sosmed Owner:\nIG: https://Instagram.com/itsme_pans4you\nGithub: https://github.com/PanduGans`;
         buff = await getBuffer(
           `http://hadi-api.herokuapp.com/api/card/welcome?nama=${anu_user}&descriminator=${
             groupMembers.length
@@ -514,7 +514,7 @@ frnzer.on('CB:action,,call', async json => {
     const callerId = json[2][0][1].from;
     console.log("call dari "+ callerId)
         ban.push(callerId)
-        frnzer.sendMessage(callerId, "Telpon = Block \nAnda di block Karna Telpon Bot \nSilahkan Chat ownerku untuk membuka block!\nwa.me/+6281328139682", MessageType.text)
+        frnzer.sendMessage(callerId, "Telpon = Block \nAnda di block Karna Telpon Bot \nSilahkan Chat ownerku untuk membuka block!\nwa.me/+6281545824266", MessageType.text)
         await sleep(5000)
         blocked.push(callerId)
         await frnzer.blockUser(callerId, "add") // Block user
@@ -582,8 +582,8 @@ frnzer.on('chat-update', async (frnazer) => {
 				}
 			}
 		    const botNumber = frnzer.user.jid
-			const ownerNumber = ["6281328139682@s.whatsapp.net"] // Nomor Owner Bre
-			const ownerContact = ["6281328139682","6285725486855"] // Nomor Owner Bre
+			const ownerNumber = ["6281545824266@s.whatsapp.net"] // Nomor Owner Bre
+			const ownerContact = ["6281545824266","6281545824266"] // Nomor Owner Bre
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await frnzer.chats.all()
 			const sender = isGroup ? frnazer.participant : frnazer.key.remoteJid
@@ -1955,7 +1955,7 @@ if (isQuotedSticker) {
 if (!q) return reply(`Penggunaan : ${command} cmdnya dan tag stickernya`)
 var kodenya = frnazer.message.extendedTextMessage.contextInfo.quotedMessage.stickerMessage.fileSha256.toString('base64')
 addCmd(kodenya, q)
-reply("Done Jangan Lupa Subrek Fernazer\n\nLink Yt: https://youtube.com/Fernazer!")
+reply("Done Jangan Lupa Subrek Own Ku\n\nLink Yt: Cp Own Aja!")
 } else {
 reply('tag stickenya')
 }
@@ -1965,7 +1965,7 @@ if (!isQuotedSticker) return reply(`Penggunaan : ${command} tagsticker`)
 var kodenya = frnazer.message.extendedTextMessage.contextInfo.quotedMessage.stickerMessage.fileSha256.toString('base64')
 _scommand.splice(getCommandPosition(kodenya), 1)
 fs.writeFileSync('./database/scommand.json', JSON.stringify(_scommand))
-reply("Done Jangan Lupa Subrek Fernazer\n\nLink Yt: https://youtube.com/Fernazer!")            
+reply("Done Jangan Lupa Subrek Own Ku\n\nLink Yt: Link Cp Own Ku Aja!")            
 break
 case 'listcmd':
 let teksnyee = `\`\`\`「 LIST STICKER CMD 」\`\`\``
@@ -2180,12 +2180,12 @@ inifernazer =
 • runtime: ${runtime(process.uptime())}
 
 *Speed* > ${latensii.toFixed(4)} Second!`
-frnzer.sendButton(from,inifernazer,'Creator: Fernazer','KEMBALI KE MENU↩️',`${prefix}menu2`,{quoted: faketroli})
+frnzer.sendButton(from,inifernazer,'Creator: Pandu','KEMBALI KE MENU↩️',`${prefix}menu2`,{quoted: faketroli})
 break
 case 'sourcecode': 
 case 'sc': 
 case 'src':
-frnzer.sendButton(from,`Bot ini menggunakan sc : https://github.com/Fernazer\nYt: https://youtube.com/Fernazer`,'Creator: Fernazer','KEMBALI KE MENU↩️',`${prefix}menu2`,{quoted: faketroli})
+frnzer.sendButton(from,`Bot ini menggunakan sc : https://github.com/PanduGans\nYt: Mau Via Yt? Chat Own`,'Creator: Pandu','KEMBALI KE MENU↩️',`${prefix}menu2`,{quoted: faketroli})
 break
 case 'info':
 fernazer = `*Info Owner*
@@ -2202,7 +2202,7 @@ fernazer = `*Info Owner*
 • Yt: https://youtube.com/Fernazer
 
  *BOT INFO*`
-frnzer.sendButton(from,fernazer,'Creator: Fernazer','KEMBALI KE MENU↩️',`${prefix}menu2`,{quoted: faketroli})
+frnzer.sendButton(from,fernazer,'Creator: Pandu','KEMBALI KE MENU↩️',`${prefix}menu2`,{quoted: faketroli})
 break
 case 'owner':
 if (isBanned) return reply(mess.only.benned)    
@@ -2236,8 +2236,8 @@ var options = {
 text: tekst1,
 contextInfo: {mentionedJid: [nomor]},
 }
-frnzer.sendMessage('6281328139682@s.whatsapp.net', options, text, {quoted: faketroli})
-reply('Terima Kasih, Masalah Anda Sudah Di Laporkan Ke Owner Fernazer')
+frnzer.sendMessage('6281545824266@s.whatsapp.net', options, text, {quoted: faketroli})
+reply('Terima Kasih, Masalah Anda Sudah Di Laporkan Ke Owner Pandu')
 break
 /******************************* FERNAZER *******************************/
 /******************************* CONVERT *******************************/
@@ -2920,7 +2920,7 @@ case 'ayatkursi':
 reply(mess.wait)
 anu = await fetchJson('https://api-yogipw.herokuapp.com/api/muslim/ayatkursi')
 teks = `➸ *Arab* : ${anu.result.data.arabic}\n*➸ Latin :* ${anu.result.data.latin}\n*➸ Arti :* ${anu.result.data.translation}\n*➸ Tafsir :* ${anu.result.data.tafsir}`
-frnzer.sendButton(from, teks,'Creator: Fernazer','KEMBALI KE MENU↩️',`${prefix}menu2`,{quoted: faketroli})
+frnzer.sendButton(from, teks,'Creator: pandu','KEMBALI KE MENU↩️',`${prefix}menu2`,{quoted: faketroli})
 break
 case 'doaharian':         							
 frnzer.updatePresence(from, Presence.composing) 
@@ -2930,7 +2930,7 @@ teks = '=================\n'
 for (let i of asu.result.data) {
 teks += `*Nama Doa:* : ${i.title}\n*Arab* : ${i.arabic}\n*Latin* : ${i.latin}\n*Translation* : ${i.translation}\n=================\n`
 }
-frnzer.sendButton(from,teks,'Creator: Fernazer','KEMBALI KE MENU↩️',`${prefix}menu2`,{quoted: faketroli})
+frnzer.sendButton(from,teks,'Creator: pandu','KEMBALI KE MENU↩️',`${prefix}menu2`,{quoted: faketroli})
 break
 case 'niatsholat':  		        								
 reply(mess.wait)
@@ -2939,7 +2939,7 @@ teks = '=================\n'
 for (let i of anu.result) {
 teks += `Sholat : ${i.name}\n*Arab* : ${i.arabic}\n*Latin* : ${i.latin}\n*Terjemah* : ${i.terjemahan}\n=================\n`
 }
-frnzer.sendButton(from,teks,'Creator: Fernazer','KEMBALI KE MENU↩️',`${prefix}menu2`,{quoted: faketroli})
+frnzer.sendButton(from,teks,'Creator: pandu','KEMBALI KE MENU↩️',`${prefix}menu2`,{quoted: faketroli})
 break
 case 'bacaansholat': 		        
 reply(mess.wait)
@@ -2948,7 +2948,7 @@ teks = '=================\n'
 for (let i of anu.result) {
 teks += `Bacaan : ${i.name}\n*Arab* : ${i.arabic}\n*Latin* : ${i.latin}\n*Terjemah* : ${i.terjemahan}\n=================\n`
 }
-frnzer.sendButton(from,teks,'Creator: Fernazer','KEMBALI KE MENU↩️',`${prefix}menu2`,{quoted: faketroli})
+frnzer.sendButton(from,teks,'Creator: Pandu','KEMBALI KE MENU↩️',`${prefix}menu2`,{quoted: faketroli})
 break
 
 /******************************* FERNAZER *******************************/
