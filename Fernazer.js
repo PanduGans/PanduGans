@@ -440,7 +440,7 @@ frnzer.on("group-participants-update", async (anu) => {
           )}&pp=${pp_user}&bg=https://i.postimg.cc/rFkw8MpX/IMG-20210807-151325.jpg`
         );
         buttons = [
-          { buttonId: `Fernazer`, buttonText: { displayText: "Welcome Bre 🖐" }, type: 1 },
+          { buttonId: `Fernazer`, buttonText: { displayText: "Welcome Ngab 🖐" }, type: 1 },
         ];
         imageMsg = (
           await frnzer.prepareMessageMedia(buff, "imageMessage", {
@@ -2970,7 +2970,8 @@ let pe = await frnzer.prepareMessageFromContent(from, msg.message.viewOnceMessag
             
 await frnzer.relayWAMessage(pe)
 console.log(color('WARNING: ANTIVIEW ONCE','red'))
-}		
+}
+		
 
 if (budy.includes("https://chat.whatsapp.com/")) {
 if (!isGroup) return
